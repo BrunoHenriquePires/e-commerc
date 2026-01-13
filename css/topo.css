@@ -1,0 +1,100 @@
+.principal
+{
+    margin: 10px;
+     display: flex;
+    justify-content: center;
+}
+
+.caixa-pesquisa {
+  display: flex;
+  border-radius: 30px;
+  background-color: white;
+  padding: 5px 10px;
+  width: 50%;
+  height: 20%;
+  box-shadow: 0 0 3px #ccc;
+  margin-top: 1vh;
+}
+
+.caixa-pesquisa form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.caixa-pesquisa button img {
+     width: 40px; 
+     height: 40px; 
+}
+.caixa-pesquisa input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.caixa-pesquisa button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+.direita{
+    width: 20%;
+    justify-items: center;
+}
+.plano{
+    width: 20%;
+}
+.plano img
+{
+    width: 100px;
+    height: 100px;
+}
+.login{
+    
+background-color: white;
+    border-radius: 20px;
+    display: flex;
+    margin: 10px;
+    width: 70%;
+
+}
+.login p{
+    margin-left: 5%;
+}
+.carrinho{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    margin: 10px;
+    width: 70%;
+}
+.login img{
+    width: 50px;
+    height: 50px;
+    filter: hue-rotate(130deg);
+    margin: 1%;
+}
+.carrinho img{
+    width: 55px;
+    height: 55px;
+    margin: 1%;
+    border-radius: 10px;
+    
+}
+ a {
+            text-decoration: none;
+            margin-left: 5%;
+            justify-items: center;
+            margin-top: 2%;
+            
+        }
+
+        
+        a:hover {
+            color: red;
+        }

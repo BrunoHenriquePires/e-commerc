@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2eeee;
+  margin: 0;
+  padding: 0;
+}
+.Tudo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 90%;
+    max-width: 1000vh;
+    margin-left: 20vh;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.nome
+{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+.valor {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 55%;
+}
+.Tudo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 90%;
+    max-width: 1000vh;
+    margin-left: 20vh;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.nome
+{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+.valor {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 55%;
+}

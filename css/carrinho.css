@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2eeee;
+  margin: 0;
+  padding: 0;
+}
+
+
+.carrinho-container {
+    width: 50%;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    margin-top: -10px;
+}
+
+.cabecalho-carrinho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo {
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.total-topo {
+    font-size: 22px;
+    font-weight: bold;
+    color: red;
+    margin-right: 5%;
+}
+
+.vazio {
+    font-size: 18px;
+}
+
+.item-card {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #f7efef;
+    border-radius: 20px;
+    width: 90%;
+    margin-left: 3%;
+}
+
+.item-card img {
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+}
+
+.info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.info h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.linha-qtd {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-qtd {
+    background: red;
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.qtd {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 4px 12px;
+    background: white;
+    border-radius: 5px;
+}
+
+.excluir {
+    display: block;
+    margin-top: 5px;
+    color: red;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.preco {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.botao-pagar {
+    display: block;
+    margin: 30px auto 0;
+    width: 300px;
+    text-align: center;
+    padding: 12px 0;
+    background: red;
+    color: white;
+    border-radius: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+ /* NÃO muda a cor ao passar o mouse */
+        .botao-pagar:hover {
+            color: white;
+            background: red;
+        }

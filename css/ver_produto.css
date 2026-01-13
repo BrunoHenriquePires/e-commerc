@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2eeee;
+  margin: 0;
+  padding: 0;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 100vh;
+    margin: 40px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.produto-img img {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.produto-info h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.valor {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.sobre {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.quantidade {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 10px 0;
+}
+
+.quantidade button {
+    background-color: red;
+    color: #f2eeee;
+    border: none;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.quantidade input {
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    background-color: #f2eeee;
+}
+
+.botoes {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.botoes a {
+    background-color: red;
+    color:#f2eeee;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    align-content: center;
+}
+
+.botoes button:hover {
+    background-color: #b30000;
+}

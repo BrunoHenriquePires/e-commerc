@@ -1,0 +1,41 @@
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #040606;
+    color: #fff;
+    padding: 30px 50px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 -5px 15px rgba(0,0,0,1);
+    margin-top: 20vh;
+
+
+}
+
+.col-esquerda {
+    text-align: center;
+}
+
+.logo {
+    width: 120px;
+}
+
+.titulo {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.col-contatos .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.col-contatos img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.col-direita p {
+    margin: 3px 0;
+}

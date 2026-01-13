@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.tela {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.esquerda {
+    width: 50%;
+    position: relative;
+    background: #e64c30;
+    display: flex;
+    flex-direction: column;
+}
+
+.foto {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+.texto {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    color: #e74c3c;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 70px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.direita {
+    width: 50%;
+    background: black;
+    justify-content: center;
+}
+
+
+.cima {
+    position: absolute;
+    width: 100%;
+    background-color:  #e64c30;
+    height: 25vh;
+     clip-path: polygon(0 0, 80% 0, 0 100%);
+}
+.baixo{
+    position: absolute;
+    width: 100%;
+    background-color:  #e64c30;
+    height: 25vh;
+     clip-path: polygon(100% 0, 900% 100%, 0 100%);
+     margin-top: 75vh;
+}
+.cadastro
+{
+    margin-top: 10%;
+    margin-left: 5%;
+    height: 60%;
+    width: 90%;
+    align-content: center;
+}
+.container {
+    text-align: center;
+    width: 300px;
+}
+
+.h1 {
+    color: white;
+    margin-left: 45%;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.link {
+    color: #4a6bff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
