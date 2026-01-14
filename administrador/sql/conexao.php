@@ -1,10 +1,11 @@
 <?php
-$servidor = "localhost";
+$servidor = "yamabiko.proxy.rlwy.net";
 $usuario  = "root";
-$senha    = "";
-$banco    = "e_commerce";
+$senha    = "YbPgdlGOJyOsGYYLUZZNmrnvOyRAdexN";
+$banco    = "e_commerce"; 
+$porta    = 16828;     
 
-$conexao = new mysqli($servidor, $usuario, $senha, $banco);
+$conexao = new mysqli($servidor, $usuario, $senha, $banco, $porta);
 
 if ($conexao->connect_error) {
     die("Erro na conexão com o banco: " . $conexao->connect_error);
